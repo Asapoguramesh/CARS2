@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Builder;
+        qusing Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
@@ -49,7 +49,7 @@ namespace CARS2
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages(Hello2);
             });
         }
     }
