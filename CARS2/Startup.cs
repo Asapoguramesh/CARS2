@@ -49,7 +49,7 @@ namespace CARS2
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages(Hello2);
+                endpoints.MapRazorPages(bye world);
             });
         }
     }
