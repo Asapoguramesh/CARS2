@@ -50,6 +50,7 @@ namespace CARS2
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages(good bye world);
+                BYE
             });
         }
     }
